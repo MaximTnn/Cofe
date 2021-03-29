@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600&family=Yeseva+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Обжарка кофе</title>
+</head>
+<body>
+	<div class="bg">
+	</div>
+	<div class="page">
+		<header class="header">
+			<button class="nav-button" onclick="classTogle()">
+				<div class="nav-button-img"></div>
+				<div class="nav-button-text">menu</div> 
+			</button>
+			<div class="logo">
+				<a href=""><img src="img/logo.svg" alt="" class="logo__img"></a>
+			</div>
+			<nav class="nav ">
+				<ul class="nav__items ">
+					<li class="nav__item"><a href="">Преимущества</a></li>	
+					<li class="nav__item"><a href="">Оплата и доставка</a></li>	
+					<li class="nav__item"><a href="">Заказать кофе</a></li>	
+					<li class="nav__item"><a href="">Отзывы</a></li>	
+					<li class="nav__item"><a href="">Контакты</a></li>					
+				</ul>
+
+			</nav>
+			<div class="contact">
+				<div class="contact__call" >
+					<img src="img/icons/call.svg" alt="" class="icon icon-call"  onclick="popUpOpen()"></img>
+					<a href="">+7 (964) 324-41-25</a>
+				</div>
+				<button class="contact__button" onclick="popUpOpen()">Заказать звонок</button>
+			</div>
+		</header>
+		
+		<main class="main">
+			<section class="intro">
+				<h1 class="intro__title">Изысканный кофе для настоящих гурманов</h1>
+				<p class="intro__text">Качественный индийский зерновой кофе на развес с доставкой по всей Москве в течение 24 часов после заказа</p>
+				<button class="intro__button" onclick="popUpOpen()">ЗАКАЗАТЬ В 1 КЛИК</button>
+			</section>
+			<div class="social">
+				<ul  class="items">
+					<li li class="item social-icon"><a href=""><img src="img/icons/vk.svg" alt="" class="icon "></a></li>
+					<li li class="item social-icon"><a href=""><img src="img/icons/ins.svg" alt="" class="icon"></a></li>
+					<li li class="item social-icon"><a href=""><img src="img/icons/youtube.svg" alt="" class="icon"></a></li>
+				</ul>
+			</div>
+			<section class="about-us">
+				<h2 class="about-us__title">Почему именно мы?</h2>
+				<div class="about-us__items">
+					<div class="about-us__item">
+						<img src="img/icons/quality.svg" alt="" class="about-us__item-img">
+						<h3 class="about-us__item-title">Качество</h3>
+						<p class="about-us__item-text">Мы продаем только элитные сорта кофе</p>
+					</div>
+					<div class="about-us__item">
+						<img src="img/icons/discounts.svg" alt="" class="about-us__item-img">
+						<h3 class="about-us__item-title">Скидки</h3>
+						<p class="about-us__item-text">Предоставляем скидки до 20% постоянным клиентам</p>
+					</div>
+					<div class="about-us__item">
+						<img src="img/icons/delivery.svg" alt="" class="about-us__item-img">
+						<h3 class="about-us__item-title">Быстрая доставка</h3>
+						<p class="about-us__item-text">Курьер доставит ваш заказ в течение 24-х часов</p>
+					</div>
+				</div>
+			</section>
+			</div>
+		</main>
+		<div class="pop-up">
+			<form action="" class="form">
+				<div class="form__btn" onclick="popUpOpen()"></div>
+				<h2 class="form__title">Заказ кофе</h2>
+				<div class="form__input">
+					<p class="form__text">Пожалуйста, оставьте ваши контактные данные и мы с вами свяжемся.</p>
+					<label for="name" class="form__label-name">Имя*</label >
+					<input type="text" name="name" placeholder="Лидия Николаев" class="form__input-name">
+					<label for="number" class="form__label-number">Телефон*</label>
+					<input type="text" name="number" class="form__input-number">
+					<input type="submit" value="ОТПРАВИТЬ ЗАЯВКУ" class="form__send">
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
+
+
+
