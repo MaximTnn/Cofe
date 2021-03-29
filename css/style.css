@@ -253,6 +253,11 @@ header {
     margin: 0 auto;
 }
 
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
 .intro__title {
     margin-top: 130px;
     max-width: 665px;
