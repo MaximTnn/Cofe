@@ -170,6 +170,7 @@ header {
 
 .contact__button {
     position: absolute;
+    z-index: 4;
     font-family: Manrope;
     font-style: normal;
     font-weight: 800;

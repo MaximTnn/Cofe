@@ -14,27 +14,27 @@
 	</div>
 	<div class="page">
 		<header class="header">
-			<button class="nav-button" onclick="classTogle()">
-				<div class="nav-button-img"></div>
-				<div class="nav-button-text">menu</div> 
-			</button>
+			<div class="nav-button" onclick="classTogle()">
+				<span class="nav-button-img"></span>
+				<p class="nav-button-text">menu</p> 
+			</div>
 			<div class="logo">
-				<a href=""><img src="img/logo.svg" alt="" class="logo__img"></a>
+				<a href="#"><img src="img/logo.svg" alt="logo" class="logo__img"></a>
 			</div>
 			<nav class="nav ">
 				<ul class="nav__items ">
-					<li class="nav__item"><a href="">Преимущества</a></li>	
-					<li class="nav__item"><a href="">Оплата и доставка</a></li>	
-					<li class="nav__item"><a href="">Заказать кофе</a></li>	
-					<li class="nav__item"><a href="">Отзывы</a></li>	
-					<li class="nav__item"><a href="">Контакты</a></li>					
+					<li class="nav__item"><a href="#">Преимущества</a></li>	
+					<li class="nav__item"><a href="#">Оплата и доставка</a></li>	
+					<li class="nav__item"><a href="#">Заказать кофе</a></li>	
+					<li class="nav__item"><a href="#">Отзывы</a></li>	
+					<li class="nav__item"><a href="#">Контакты</a></li>					
 				</ul>
 
 			</nav>
 			<div class="contact">
 				<div class="contact__call" >
-					<img src="img/icons/call.svg" alt="" class="icon icon-call"  onclick="popUpOpen()"></img>
-					<a href="">+7 (964) 324-41-25</a>
+					<img src="img/icons/call.svg" alt="call" class="icon icon-call"  onclick="popUpOpen()">
+					<a href="#">+7 (964) 324-41-25</a>
 				</div>
 				<button class="contact__button" onclick="popUpOpen()">Заказать звонок</button>
 			</div>
@@ -48,43 +48,42 @@
 			</section>
 			<div class="social">
 				<ul  class="items">
-					<li li class="item social-icon"><a href=""><img src="img/icons/vk.svg" alt="" class="icon "></a></li>
-					<li li class="item social-icon"><a href=""><img src="img/icons/ins.svg" alt="" class="icon"></a></li>
-					<li li class="item social-icon"><a href=""><img src="img/icons/youtube.svg" alt="" class="icon"></a></li>
+					<li class="item social-icon"><a href="#"><img src="img/icons/vk.svg" alt="vk" class="icon "></a></li>
+					<li class="item social-icon"><a href="#"><img src="img/icons/ins.svg" alt="instagram" class="icon"></a></li>
+					<li class="item social-icon"><a href="#"><img src="img/icons/youtube.svg" alt="youtube" class="icon"></a></li>
 				</ul>
 			</div>
 			<section class="about-us">
 				<h2 class="about-us__title">Почему именно мы?</h2>
 				<div class="about-us__items">
 					<div class="about-us__item">
-						<img src="img/icons/quality.svg" alt="" class="about-us__item-img">
+						<img src="img/icons/quality.svg" alt="quality" class="about-us__item-img">
 						<h3 class="about-us__item-title">Качество</h3>
 						<p class="about-us__item-text">Мы продаем только элитные сорта кофе</p>
 					</div>
 					<div class="about-us__item">
-						<img src="img/icons/discounts.svg" alt="" class="about-us__item-img">
+						<img src="img/icons/discounts.svg" alt="discounts" class="about-us__item-img">
 						<h3 class="about-us__item-title">Скидки</h3>
 						<p class="about-us__item-text">Предоставляем скидки до 20% постоянным клиентам</p>
 					</div>
 					<div class="about-us__item">
-						<img src="img/icons/delivery.svg" alt="" class="about-us__item-img">
+						<img src="img/icons/delivery.svg" alt="delivery" class="about-us__item-img">
 						<h3 class="about-us__item-title">Быстрая доставка</h3>
 						<p class="about-us__item-text">Курьер доставит ваш заказ в течение 24-х часов</p>
 					</div>
 				</div>
 			</section>
-			</div>
 		</main>
 		<div class="pop-up">
-			<form action="" class="form">
+			<form action="#" class="form">
 				<div class="form__btn" onclick="popUpOpen()"></div>
 				<h2 class="form__title">Заказ кофе</h2>
 				<div class="form__input">
 					<p class="form__text">Пожалуйста, оставьте ваши контактные данные и мы с вами свяжемся.</p>
-					<label for="name" class="form__label-name">Имя*</label >
-					<input type="text" name="name" placeholder="Лидия Николаев" class="form__input-name">
-					<label for="number" class="form__label-number">Телефон*</label>
-					<input type="text" name="number" class="form__input-number">
+					<label class="form__label-name">Имя*</label >
+					<input type="text" placeholder="Лидия Николаев" class="form__input-name">
+					<label class="form__label-number">Телефон*</label>
+					<input type="text" class="form__input-number">
 					<input type="submit" value="ОТПРАВИТЬ ЗАЯВКУ" class="form__send">
 				</div>
 			</form>
